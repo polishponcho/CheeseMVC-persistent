@@ -1,0 +1,11 @@
+/Users/ryanratajczyk/Desktop/LC101/CheeseMVCPersistent/src/CheeseMVC/bin/Debug/netcoreapp2.0/CheeseMVC.deps.json
+/Users/ryanratajczyk/Desktop/LC101/CheeseMVCPersistent/src/CheeseMVC/bin/Debug/netcoreapp2.0/CheeseMVC.runtimeconfig.json
+/Users/ryanratajczyk/Desktop/LC101/CheeseMVCPersistent/src/CheeseMVC/bin/Debug/netcoreapp2.0/CheeseMVC.runtimeconfig.dev.json
+/Users/ryanratajczyk/Desktop/LC101/CheeseMVCPersistent/src/CheeseMVC/bin/Debug/netcoreapp2.0/CheeseMVC.dll
+/Users/ryanratajczyk/Desktop/LC101/CheeseMVCPersistent/src/CheeseMVC/bin/Debug/netcoreapp2.0/CheeseMVC.pdb
+/Users/ryanratajczyk/Desktop/LC101/CheeseMVCPersistent/src/CheeseMVC/obj/Debug/netcoreapp2.0/CheeseMVC.csprojAssemblyReference.cache
+/Users/ryanratajczyk/Desktop/LC101/CheeseMVCPersistent/src/CheeseMVC/obj/Debug/netcoreapp2.0/CheeseMVC.csproj.CoreCompileInputs.cache
+/Users/ryanratajczyk/Desktop/LC101/CheeseMVCPersistent/src/CheeseMVC/obj/Debug/netcoreapp2.0/CheeseMVC.AssemblyInfoInputs.cache
+/Users/ryanratajczyk/Desktop/LC101/CheeseMVCPersistent/src/CheeseMVC/obj/Debug/netcoreapp2.0/CheeseMVC.AssemblyInfo.cs
+/Users/ryanratajczyk/Desktop/LC101/CheeseMVCPersistent/src/CheeseMVC/obj/Debug/netcoreapp2.0/CheeseMVC.dll
+/Users/ryanratajczyk/Desktop/LC101/CheeseMVCPersistent/src/CheeseMVC/obj/Debug/netcoreapp2.0/CheeseMVC.pdb

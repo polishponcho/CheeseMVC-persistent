@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace CheeseMVC.ViewModels
 {
-    public class ViewMenuViewModel
+    public class AddCategoryViewModel
     {
-        public Menu Menu { get; set; }
-        public IList<CheeseMenu> Items { get; set; }
+        [Required]
+        [Display(Name = "Category Name")]
+        public string Name { get; set; }
     }
 }
-

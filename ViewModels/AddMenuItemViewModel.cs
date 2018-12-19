@@ -8,65 +8,29 @@ using System.Threading.Tasks;
 
 namespace CheeseMVC.ViewModels
 {
-    public class AddCheeseViewModel
+    public class AddMenuItemViewModel
     {
         [Required]
-        [Display(Name = "Cheese Name")]
-        public string Name { get; set; }
+        [Display(Name = "Cheese Item")]
+        public int cheeseID { get; set; }
+        public int menuID { get; set; }
+        public Menu Menu { get; set; }
+        public List<SelectListItem> Cheeses { get; set; }
 
-        [Required(ErrorMessage = "You must give your cheese a description")]
-        public string Description { get; set; }
-
-
-
-        [Required]
-        [Display(Name = "Category")]
-        public int CategoryID { get; set; }
-
-        public List<SelectListItem> Categories { get; set; }
-
-        public AddCheeseViewModel(IEnumerable<CheeseCategory> categories)
+        public AddMenuItemViewModel() { }
+        public AddMenuItemViewModel(Menu menu, IEnumerable<Cheese> cheeses)
         {
-            Categories = new List<SelectListItem>();
-
-            foreach (var category in categories)
+            Menu = menu;
+            Cheeses = new List<SelectListItem>();
+            foreach(var cheese in cheeses)
             {
-                Categories.Add(new SelectListItem
+                Cheeses.Add(new SelectListItem
                 {
-                    Value = category.ID.ToString(),
-                    Text = category.Name
+                    Value = cheese.ID.ToString(),
+                    Text = cheese.Name
                 });
             }
-
         }
-        public AddCheeseViewModel() { }
-
-        /*
-        public List<SelectListItem> CheeseTypes { get; set; }
-
-        public AddCheeseViewModel() {
-
-            CheeseTypes = new List<SelectListItem>();
-
-            // <option value="0">Hard</option>
-            CheeseTypes.Add(new SelectListItem {
-                Value = ((int) CheeseType.Hard).ToString(),
-                Text = CheeseType.Hard.ToString()
-            });
-
-            CheeseTypes.Add(new SelectListItem
-            {
-                Value = ((int)CheeseType.Soft).ToString(),
-                Text = CheeseType.Soft.ToString()
-            });
-
-            CheeseTypes.Add(new SelectListItem
-            {
-                Value = ((int)CheeseType.Fake).ToString(),
-                Text = CheeseType.Fake.ToString()
-            });
-
-        }
-        */
+     
     }
 }
